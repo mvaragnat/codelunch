@@ -20,7 +20,12 @@ Et "Rails" ? C'est le framework adapté pour faire des sites web (équivalents d
 Qu'est-ce Git ? gestion de versions du code, de modifications. Permet le travail en collaboratif
 
 Commandes de base
-
+- 'git clone https://github.com/mvaragnat/codelunch.git' pour cloner un repository sur ma machine
+- 'git status' pour voir ce qui est modifié
+- 'git add .' pour tout ajouter à la prochaine sauvegarde
+- 'git commit -m "ceci est le premier commit"' pour sauvegarder
+- 'git pull' pour récupérer les modifications récentes
+- 'git push' pour envoyer sur github
 
 # Test de Ruby
 
