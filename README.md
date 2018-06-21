@@ -7,6 +7,7 @@ Installation de l'environnement de travail (en local, plutot que Cloud9, afin d'
 - Xcode
 - Homebrew
 - Rbenv & Ruby
+- Rails, avec la commande `gem install rails`
 
 # Intro
 
