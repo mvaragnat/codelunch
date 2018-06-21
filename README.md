@@ -25,3 +25,5 @@ Commandes de base
 # Test de Ruby
 
 'rails c' pour ouvrir la console
+
+#Maiici
