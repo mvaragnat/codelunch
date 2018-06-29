@@ -71,10 +71,22 @@ end
 
 A discuter
 - Integer
+`a = 1`
+
 - Float
+`b = 1.5`
+
 - String
+`my_name = "Matthieu"`
+
 - Array
+`mon_array = [1, 4, 5]`
+`mon_array[0] => 1`
+`mon_array[2] => 5`
+
 - Hash
+`mon_hash = { "cle1" => 3, "cle2" => 4}`
+`mon_hash["cle2"] => 4`
 
 Qu'est-ce qu'un objet Ruby ? C'est un ensemble de fonctions (appelées méthodes), et de valeurs stockées dans un ensemble de champs/attributs.
 
