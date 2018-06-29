@@ -7,7 +7,9 @@ Installation de l'environnement de travail (en local, plutot que Cloud9, afin d'
 - Xcode
 - Homebrew
 - Rbenv & Ruby (pour savoir si c'est installé : `ruby -v`)
-- Rails, avec la commande `gem install rails` (pour savoir si c'est installé : `rails -v`)
+- Rails, avec la commande `sudo gem install rails` (pour savoir si c'est installé : `rails -v`)
+
+Qu'est-ce qu'une "gem" ? C'est un morceau de programme, une "librairie" afin de ne pas réécrire la roue à chaque fois. Rails est une gem de Ruby. Et ensuite, dans la création d'un site web, nous utiliserons de très nombreuses autres gem.
 
 # Intro
 
@@ -28,10 +30,43 @@ Commandes de base
 - `git pull` pour récupérer les modifications récentes
 - `git push` pour envoyer sur github
 
-# Test de Ruby
+# Créer une application Rails et tester Ruby
 
+Pour créer une application Rails minimale, `rails new test_app`, qui va créer un répertoire et une application nommée "test_app". De nombreux fichiers sont créés, pour l'instant, on ne s'en préoccupe pas, c'est juste pour ouvrir un environnement Ruby.
+
+Puis `rails c`, dans le répertoire créé, pour ouvrir la console. Nous arrivons dans un environnement qui "parle" le langage Ruby. On peut tester quelques manipulations de base.
+
+Opérations mathématiques
+- 1+2
+- 4 * 8
+
+Variables
+- a = 3
+- b = 2
+- c = a + b
+
+# Types de données
+
+A discuter
+- Integer
+- Float
+- String
+- Array
+- Hash
+
+Qu'est-ce qu'un objet Ruby ? C'est un ensemble de fonctions (appelées méthodes), et de valeurs stockées dans un ensemble de champs/attributs.
+
+Les méthodes sont définies dans une Class, et les champs/attributs sont définis par un "schéma".
+
+# Site web
+Todo (`rails s` pour les curieux)
+
+<<<<<<< HEAD
 'rails c' pour ouvrir la console
 annabelle est là
 
 
 
+=======
+Harold galère avec son ordi
+>>>>>>> 3829e5be07f2d60e014fd5299961041414acece0
