@@ -44,6 +44,28 @@ Variables
 - a = 3
 - b = 2
 - c = a + b
+- my_name = "Matthieu"
+
+Booléens
+- 1 == 2 => true
+- 1 != 2 => false
+- 1 < 2 => true
+- 1 > 2 => false
+- a == 3 => true
+- my_name == "Matthieu" => true
+
+Opérations logiques
+```
+a = 1
+b = 2
+if a < b
+  puts "a est plus petit que b"
+elsif a == b
+  puts "a égal b"
+else
+  puts "a est plus grand que b"
+end
+```
 
 # Types de données
 
