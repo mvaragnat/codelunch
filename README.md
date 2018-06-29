@@ -61,12 +61,7 @@ Les méthodes sont définies dans une Class, et les champs/attributs sont défin
 # Site web
 Todo (`rails s` pour les curieux)
 
-<<<<<<< HEAD
 'rails c' pour ouvrir la console
+
 annabelle est là
-
-
-
-=======
 Harold galère avec son ordi
->>>>>>> 3829e5be07f2d60e014fd5299961041414acece0
