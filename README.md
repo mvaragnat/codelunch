@@ -30,11 +30,11 @@ Commandes de base
 - `git pull` pour récupérer les modifications récentes
 - `git push` pour envoyer sur github
 
-# Créer une application Rails. Test de Ruby
+# Créer une application Rails et tester Ruby
 
-Pour créer une application Rails minimale, `rails new test_app`, qui va créer un répertoire et une application nommée "test_app"
+Pour créer une application Rails minimale, `rails new test_app`, qui va créer un répertoire et une application nommée "test_app". De nombreux fichiers sont créés, pour l'instant, on ne s'en préoccupe pas, c'est juste pour ouvrir un environnement Ruby.
 
-Puis `rails c` pour ouvrir la console. Nous arrivons dans un environnement qui "parle" le langage Ruby. On peut tester quelques manipulations de base.
+Puis `rails c`, dans le répertoire créé, pour ouvrir la console. Nous arrivons dans un environnement qui "parle" le langage Ruby. On peut tester quelques manipulations de base.
 
 Opérations mathématiques
 - 1+2
@@ -54,7 +54,9 @@ A discuter
 - Array
 - Hash
 
-et les methodes associées...
+Qu'est-ce qu'un objet Ruby ? C'est un ensemble de fonctions (appelées méthodes), et de valeurs stockées dans un ensemble de champs/attributs.
+
+Les méthodes sont définies dans une Class, et les champs/attributs sont définis par un "schéma".
 
 # Site web
 Todo (`rails s` pour les curieux)
